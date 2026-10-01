@@ -1,8 +1,7 @@
-# dsan6600-finalproject
+# Steam Game Recommender
 
-# Project Title - 
+Semester project for DSAN 6600.
 
-#Group - Robert George
+## Project Goal
 
-#dataset - https://huggingface.co/datasets/frankjc2022/steam-dataset?
-
+Build and evaluate a neural recommendation system for Steam games using user-game interaction data.

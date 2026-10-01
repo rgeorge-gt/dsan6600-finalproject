@@ -1,0 +1,65 @@
+{
+  "dataset_id": "frankjc2022/steam-dataset",
+  "source_url": "https://huggingface.co/datasets/frankjc2022/steam-dataset",
+  "downloaded_at_utc": "2026-10-01T01:09:36.721241+00:00",
+  "configs": [
+    {
+      "config": "user_games",
+      "rows": 11285290,
+      "columns": 9,
+      "column_names": [
+        "steamid",
+        "appid",
+        "game_count",
+        "game_name",
+        "playtime_forever",
+        "img_icon_url",
+        "has_community_visible_stats",
+        "has_leaderboards",
+        "content_descriptorids"
+      ],
+      "output": "data/raw/user_games.parquet",
+      "size_mb": 512.48,
+      "status": "downloaded"
+    },
+    {
+      "config": "games",
+      "rows": 47811,
+      "columns": 29,
+      "column_names": [
+        "appid",
+        "type",
+        "name",
+        "is_free",
+        "required_age",
+        "short_description",
+        "detailed_description",
+        "about_the_game",
+        "supported_languages",
+        "developers",
+        "publishers",
+        "platforms",
+        "categories",
+        "genres",
+        "pc_requirements",
+        "mac_requirements",
+        "linux_requirements",
+        "price_currency",
+        "price_initial",
+        "price_final",
+        "price_discount_percent",
+        "price_final_formatted",
+        "metacritic_score",
+        "metacritic_url",
+        "recommendations_total",
+        "release_date",
+        "release_coming_soon",
+        "content_descriptor_ids",
+        "content_descriptor_notes"
+      ],
+      "output": "data/raw/games.parquet",
+      "size_mb": 133.21,
+      "status": "downloaded"
+    }
+  ]
+}
