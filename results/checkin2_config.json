@@ -1,0 +1,29 @@
+{
+  "dataset": "frankjc2022/steam-dataset",
+  "positive_rule": "playtime_forever > 0",
+  "recommendation_scope": "existing users; do not recommend known owned games",
+  "random_seed": 42,
+  "n_users_original": 786,
+  "n_users_evaluated": 786,
+  "n_items_catalog": 49830,
+  "minimum_positives": 15,
+  "validation_positives_per_user": 5,
+  "test_positives_per_user": 5,
+  "max_training_positives_per_user": 1000,
+  "negative_ratio": 2,
+  "embedding_dim": 32,
+  "hidden_dims": [
+    64,
+    32
+  ],
+  "dropout": 0.1,
+  "learning_rate": 0.001,
+  "weight_decay": 1e-06,
+  "epochs_max": 5,
+  "best_epoch": 5,
+  "batch_size": 2048,
+  "validation_negative_candidates_per_user": 1000,
+  "sampled_test_negative_candidates_per_user": 2000,
+  "full_catalog_test_performed": true,
+  "device": "cpu"
+}
